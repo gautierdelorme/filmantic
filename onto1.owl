@@ -1,0 +1,537 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#"
+     xml:base="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:untitled-ontology-4="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_00e03d8e_79c9_4d54_ba85_c27cddfc4cb9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_00e03d8e_79c9_4d54_ba85_c27cddfc4cb9">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9a15a87b_f465_4822_b3b8_f8546003907d"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_2602c62e_2241_41e6_bf7d_3093633c69de"/>
+        <rdfs:label xml:lang="fr">a pour lieu</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_0563827e_5cb2_4f25_bc76_751014710f4d -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_0563827e_5cb2_4f25_bc76_751014710f4d">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_2602c62e_2241_41e6_bf7d_3093633c69de"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_2602c62e_2241_41e6_bf7d_3093633c69de"/>
+        <rdfs:label xml:lang="fr">se situe dans</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_0bc8a98a_4c12_44ac_b8ba_fff6d1661bb2 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_0bc8a98a_4c12_44ac_b8ba_fff6d1661bb2">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_00e03d8e_79c9_4d54_ba85_c27cddfc4cb9"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9a15a87b_f465_4822_b3b8_f8546003907d"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_2602c62e_2241_41e6_bf7d_3093633c69de"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_0bc8a98a_4c12_44ac_b8ba_fff6d1661bb2"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_0563827e_5cb2_4f25_bc76_751014710f4d"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label xml:lang="fr">se déroule dans</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_2da62a26_b107_4b25_a584_f8b116d46cf3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_2da62a26_b107_4b25_a584_f8b116d46cf3">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9a15a87b_f465_4822_b3b8_f8546003907d"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_cca0c624_a52f_4c61_a433_286d2f80a36b"/>
+        <rdfs:label xml:lang="fr">a pour nationalité</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_2f267344_aa9a_4965_9430_f23db0b52ff9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_2f267344_aa9a_4965_9430_f23db0b52ff9">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_9f86f0fd_94f2_4951_b6e2_b8080a0f13e1"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_71e06184_6911_4bc0_a815_be171384dc62"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9a15a87b_f465_4822_b3b8_f8546003907d"/>
+        <rdfs:label xml:lang="fr">joue dans</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_30856785_2df0_436e_b27e_309dfd51bca9 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_30856785_2df0_436e_b27e_309dfd51bca9">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9a15a87b_f465_4822_b3b8_f8546003907d"/>
+        <rdfs:label xml:lang="fr">à pour nationalité</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_431cc85e_11c7_4965_8498_5076c22638a1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_431cc85e_11c7_4965_8498_5076c22638a1">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_00e03d8e_79c9_4d54_ba85_c27cddfc4cb9"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9a15a87b_f465_4822_b3b8_f8546003907d"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_2602c62e_2241_41e6_bf7d_3093633c69de"/>
+        <rdfs:label xml:lang="fr">est tourné dans</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_9f86f0fd_94f2_4951_b6e2_b8080a0f13e1 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_9f86f0fd_94f2_4951_b6e2_b8080a0f13e1">
+        <rdfs:label xml:lang="fr">a pour artiste</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_ac47285f_66ee_46e1_ba8f_2da9689f0d66 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_ac47285f_66ee_46e1_ba8f_2da9689f0d66">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9166ab89_780f_4c60_a175_a0b7f1d8ec47"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_3c0064b4_ca97_44a0_b9f8_e510b1c297b7"/>
+        <rdfs:label xml:lang="fr">contient</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_afbf66b7_4e7e_4a63_9bc1_12bcd9e59255 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_afbf66b7_4e7e_4a63_9bc1_12bcd9e59255">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_71e06184_6911_4bc0_a815_be171384dc62"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_71e06184_6911_4bc0_a815_be171384dc62"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_2f267344_aa9a_4965_9430_f23db0b52ff9"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_9f86f0fd_94f2_4951_b6e2_b8080a0f13e1"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label xml:lang="fr">a joué avec</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_b26f41b0_4aa6_45ed_95b2_51ead9ecc1cd -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_b26f41b0_4aa6_45ed_95b2_51ead9ecc1cd">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_ac47285f_66ee_46e1_ba8f_2da9689f0d66"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9166ab89_780f_4c60_a175_a0b7f1d8ec47"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_3c0064b4_ca97_44a0_b9f8_e510b1c297b7"/>
+        <rdfs:label xml:lang="fr">a pour capitale</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_b7e0da74_0b3c_4ef0_8139_c0637f74e877 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_b7e0da74_0b3c_4ef0_8139_c0637f74e877">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_e9b4d9e8_898f_4151_890a_72693b447899"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9a15a87b_f465_4822_b3b8_f8546003907d"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_1eb035e7_fac1_4ca5_b1bc_d32aacd4d86c"/>
+        <rdfs:label xml:lang="fr">a été tourné en</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_e9b4d9e8_898f_4151_890a_72693b447899 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_e9b4d9e8_898f_4151_890a_72693b447899">
+        <rdfs:label xml:lang="fr">a été l&apos;année de tournage de</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_f4947b42_4507_4868_b989_eb02d4a6c209 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLObjectProperty_f4947b42_4507_4868_b989_eb02d4a6c209">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9a15a87b_f465_4822_b3b8_f8546003907d"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_a5588947_efc0_4b80_a7ff_2fbe724d5499"/>
+        <rdfs:label xml:lang="fr">est réalisé par</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLDataProperty_a5e55acd_28f1_4102_a407_53d162312dc6 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLDataProperty_a5e55acd_28f1_4102_a407_53d162312dc6">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9a15a87b_f465_4822_b3b8_f8546003907d"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:label xml:lang="fr">a un nombre d&apos;entrées</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLDataProperty_b7d539b5_320a_42dd_ab93_e2f1f59635f3 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLDataProperty_b7d539b5_320a_42dd_ab93_e2f1f59635f3">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9a15a87b_f465_4822_b3b8_f8546003907d"/>
+        <rdfs:label xml:lang="fr">a une note</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLDataProperty_c2793f2f_f0e7_4d28_9677_244ec1a824ac -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLDataProperty_c2793f2f_f0e7_4d28_9677_244ec1a824ac">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9a15a87b_f465_4822_b3b8_f8546003907d"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+        <rdfs:label xml:lang="fr">a une durée en minutes</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_0e15924c_fb2b_4eea_b92c_c8e094edafea -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_0e15924c_fb2b_4eea_b92c_c8e094edafea">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_71e06184_6911_4bc0_a815_be171384dc62"/>
+        <rdfs:label xml:lang="fr">acteur</rdfs:label>
+        <rdfs:label xml:lang="en">actor</rdfs:label>
+        <rdfs:label xml:lang="fr">comédien</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_179c9bda_5cff_460f_87f6_b3948ef18b99 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_179c9bda_5cff_460f_87f6_b3948ef18b99">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_cca0c624_a52f_4c61_a433_286d2f80a36b"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_a46c5815_bc84_4c23_978d_509ec8c09868"/>
+        <rdfs:label xml:lang="fr">étranger</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_1eb035e7_fac1_4ca5_b1bc_d32aacd4d86c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_1eb035e7_fac1_4ca5_b1bc_d32aacd4d86c">
+        <rdfs:label xml:lang="fr">année</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_1f4c460c_c05d_4e15_8968_40c089b65df4 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_1f4c460c_c05d_4e15_8968_40c089b65df4">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9a15a87b_f465_4822_b3b8_f8546003907d"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLDataProperty_c2793f2f_f0e7_4d28_9677_244ec1a824ac"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">59</xsd:maxInclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9a15a87b_f465_4822_b3b8_f8546003907d"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_e9490717_e71e_43e7_b6d8_8c1c5c508e7c"/>
+        <rdfs:label xml:lang="fr">court-métrage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_2602c62e_2241_41e6_bf7d_3093633c69de -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_2602c62e_2241_41e6_bf7d_3093633c69de">
+        <rdfs:label xml:lang="fr">lieu</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_3c0064b4_ca97_44a0_b9f8_e510b1c297b7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_3c0064b4_ca97_44a0_b9f8_e510b1c297b7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_2602c62e_2241_41e6_bf7d_3093633c69de"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9166ab89_780f_4c60_a175_a0b7f1d8ec47"/>
+        <rdfs:label xml:lang="fr">ville</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_71e06184_6911_4bc0_a815_be171384dc62 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_71e06184_6911_4bc0_a815_be171384dc62">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_74c877e7_2812_4a84_96e4_041dae2f2c8b"/>
+        <rdfs:label xml:lang="fr">artiste</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_74c877e7_2812_4a84_96e4_041dae2f2c8b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_74c877e7_2812_4a84_96e4_041dae2f2c8b">
+        <rdfs:label xml:lang="fr">personne</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9166ab89_780f_4c60_a175_a0b7f1d8ec47 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9166ab89_780f_4c60_a175_a0b7f1d8ec47">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_2602c62e_2241_41e6_bf7d_3093633c69de"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_e61c7888_e973_4772_b48b_079034bad995"/>
+        <rdfs:label xml:lang="fr">pays</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9a15a87b_f465_4822_b3b8_f8546003907d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9a15a87b_f465_4822_b3b8_f8546003907d">
+        <rdfs:label xml:lang="fr">film</rdfs:label>
+        <rdfs:label xml:lang="en">movie</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_a46c5815_bc84_4c23_978d_509ec8c09868 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_a46c5815_bc84_4c23_978d_509ec8c09868">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_cca0c624_a52f_4c61_a433_286d2f80a36b"/>
+        <rdfs:label xml:lang="fr">français</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_a5588947_efc0_4b80_a7ff_2fbe724d5499 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_a5588947_efc0_4b80_a7ff_2fbe724d5499">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_74c877e7_2812_4a84_96e4_041dae2f2c8b"/>
+        <rdfs:label xml:lang="fr">réalisateur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_cca0c624_a52f_4c61_a433_286d2f80a36b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_cca0c624_a52f_4c61_a433_286d2f80a36b">
+        <rdfs:label xml:lang="fr">nationalité</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_e61c7888_e973_4772_b48b_079034bad995 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_e61c7888_e973_4772_b48b_079034bad995">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_2602c62e_2241_41e6_bf7d_3093633c69de"/>
+        <rdfs:label xml:lang="fr">continent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_e9490717_e71e_43e7_b6d8_8c1c5c508e7c -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_e9490717_e71e_43e7_b6d8_8c1c5c508e7c">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9a15a87b_f465_4822_b3b8_f8546003907d"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLDataProperty_c2793f2f_f0e7_4d28_9677_244ec1a824ac"/>
+                        <owl:someValuesFrom>
+                            <rdfs:Datatype>
+                                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+                                <owl:withRestrictions rdf:parseType="Collection">
+                                    <rdf:Description>
+                                        <xsd:minExclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">59</xsd:minExclusive>
+                                    </rdf:Description>
+                                </owl:withRestrictions>
+                            </rdfs:Datatype>
+                        </owl:someValuesFrom>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_9a15a87b_f465_4822_b3b8_f8546003907d"/>
+        <rdfs:label xml:lang="fr">long-métrage</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_fa3d1dc8_4ed7_486d_8fef_dc98d9c9c944 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_fa3d1dc8_4ed7_486d_8fef_dc98d9c9c944">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_71e06184_6911_4bc0_a815_be171384dc62"/>
+        <rdfs:label xml:lang="en">actress</rdfs:label>
+        <rdfs:label xml:lang="fr">actrice</rdfs:label>
+        <rdfs:label xml:lang="fr">comédienne</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_01a20d8b_0cb4_4f91_adfe_3339439b80f6 -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_01a20d8b_0cb4_4f91_adfe_3339439b80f6">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label xml:lang="fr">la Ville lumière</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_2ff109f5_8a4e_4358_94de_f5fe0912d83d -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_2ff109f5_8a4e_4358_94de_f5fe0912d83d">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label xml:lang="fr">Woody Allen</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_421c5238_2b69_4d72_917c_9fc7feea1328 -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_421c5238_2b69_4d72_917c_9fc7feea1328">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <OWLObjectProperty_0563827e_5cb2_4f25_bc76_751014710f4d rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_82ff9f3c_f07e_4edb_95dc_ad905d66a542"/>
+        <rdfs:label xml:lang="fr">Paris</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_54acc91e_e528_479d_ab78_1321c7684a9b -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_54acc91e_e528_479d_ab78_1321c7684a9b">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLClass_3c0064b4_ca97_44a0_b9f8_e510b1c297b7"/>
+        <rdfs:label xml:lang="fr">Monaco</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_6694836a_4904_46bf_ba7a_ebbdfae8c364 -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_6694836a_4904_46bf_ba7a_ebbdfae8c364">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <OWLObjectProperty_f4947b42_4507_4868_b989_eb02d4a6c209 rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_6ef61912_edfe_4a31_a407_70e3f6100eec"/>
+        <OWLDataProperty_c2793f2f_f0e7_4d28_9677_244ec1a824ac rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</OWLDataProperty_c2793f2f_f0e7_4d28_9677_244ec1a824ac>
+        <rdfs:label xml:lang="fr">The Artist</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_6ade178a_57b5_4452_a591_d62498eec8c6 -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_6ade178a_57b5_4452_a591_d62498eec8c6">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label xml:lang="fr">Europe</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_6ef61912_edfe_4a31_a407_70e3f6100eec -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_6ef61912_edfe_4a31_a407_70e3f6100eec">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <rdfs:label xml:lang="fr">Michel Hazanavicius</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_7d326aed_dc0a_4b3d_bf9f_e7f869899680 -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_7d326aed_dc0a_4b3d_bf9f_e7f869899680">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <OWLObjectProperty_2f267344_aa9a_4965_9430_f23db0b52ff9 rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_6694836a_4904_46bf_ba7a_ebbdfae8c364"/>
+        <rdfs:label xml:lang="fr">Jean Dujardin</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_82ff9f3c_f07e_4edb_95dc_ad905d66a542 -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_82ff9f3c_f07e_4edb_95dc_ad905d66a542">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <OWLObjectProperty_0563827e_5cb2_4f25_bc76_751014710f4d rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_6ade178a_57b5_4452_a591_d62498eec8c6"/>
+        <OWLObjectProperty_b26f41b0_4aa6_45ed_95b2_51ead9ecc1cd rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_01a20d8b_0cb4_4f91_adfe_3339439b80f6"/>
+        <OWLObjectProperty_b26f41b0_4aa6_45ed_95b2_51ead9ecc1cd rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_421c5238_2b69_4d72_917c_9fc7feea1328"/>
+        <rdfs:label xml:lang="fr">France</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_b7ea5be6_c3c4_4b92_8f5a_a78b08b97fa9 -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_b7ea5be6_c3c4_4b92_8f5a_a78b08b97fa9">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <OWLObjectProperty_2f267344_aa9a_4965_9430_f23db0b52ff9 rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_6694836a_4904_46bf_ba7a_ebbdfae8c364"/>
+        <rdfs:label xml:lang="fr">Bérénice Bejo</rdfs:label>
+    </owl:Thing>
+    
+
+
+    <!-- http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_fdb06b01_fe37_4261_b5d0_4f5ae0027e7b -->
+
+    <owl:Thing rdf:about="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_fdb06b01_fe37_4261_b5d0_4f5ae0027e7b">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#NamedIndividual"/>
+        <OWLObjectProperty_0bc8a98a_4c12_44ac_b8ba_fff6d1661bb2 rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_421c5238_2b69_4d72_917c_9fc7feea1328"/>
+        <OWLObjectProperty_f4947b42_4507_4868_b989_eb02d4a6c209 rdf:resource="http://www.semanticweb.org/gautier/ontologies/2016/4/untitled-ontology-4#OWLNamedIndividual_2ff109f5_8a4e_4358_94de_f5fe0912d83d"/>
+        <rdfs:label xml:lang="fr">Midnight in Paris</rdfs:label>
+    </owl:Thing>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.2.1.20160306-0033) https://github.com/owlcs/owlapi -->
+
