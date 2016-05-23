@@ -24,7 +24,7 @@ public class ParserOwl {
             OMDBProxy omdbProxy = new OMDBProxy();
             File csvData = new File("/Users/gautier/Documents/web_sem/sources/download2.csv");
             CSVParser parser = CSVParser.parse(csvData, Charset.defaultCharset(), CSVFormat.EXCEL.withHeader());
-            for (CSVRecord csvRecord : parser) {
+            /*for (CSVRecord csvRecord : parser) {
                 Film film = new Film(csvRecord.get("titre"),
                         csvRecord.get("realisateur"),
                         csvRecord.get("date_debut_evenement"),
@@ -42,6 +42,11 @@ public class ParserOwl {
                         omdbProxy.getMovieInfos(csvRecord.get("titre")).get("Year")
                 );
                 manager.store(film);
+            }*/
+            csvData = new File("/Users/gautier/Documents/web_sem/sources/mtp_tournages.csv");
+            parser = CSVParser.parse(csvData, Charset.defaultCharset(), CSVFormat.EXCEL.withHeader());
+            for (CSVRecord csvRecord : parser) {
+                System.out.println(csvRecord.get("titre"));
             }
             manager.save();
         } catch (IOException e) {
