@@ -85,18 +85,20 @@ public class ParserOwlManager {
     
     public void store(Film film) {
         try {
-            OWLNamedIndividual newFilm = createIndividual(film.getTitle());
-            
-            OWLNamedIndividual newDirector = createIndividual(film.getDirector());
-            createObjectProperty(ParserOwlManager.HAS_DIRECTOR_URI, newFilm, newDirector);
-            
-            OWLNamedIndividual newPlace = createIndividual(film.getAddress());
-            createObjectProperty(ParserOwlManager.DIRECTED_IN_URI, newFilm, newPlace);
+            OWLNamedIndividual newFilm = createIndividual(film.getTitle());            
             
             film.getActors().stream().forEach((actor) -> {
                 createObjectProperty(ParserOwlManager.ACT_IN_URI, createIndividual(actor), newFilm);
             });
             
+            if (film.hasAddress()) {
+                OWLNamedIndividual newPlace = createIndividual(film.getAddress());
+                createObjectProperty(ParserOwlManager.DIRECTED_IN_URI, newFilm, newPlace);
+            }
+            if (film.hasDirector()) {
+                OWLNamedIndividual newDirector = createIndividual(film.getDirector());
+                createObjectProperty(ParserOwlManager.HAS_DIRECTOR_URI, newFilm, newDirector);
+            }
             if (film.hasYear()) {
                 OWLNamedIndividual newYear = createIndividual(film.getYear());
                 createObjectProperty(ParserOwlManager.RELEASE_DATE_URI, newFilm, newYear);

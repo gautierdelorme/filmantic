@@ -46,6 +46,11 @@ public class Film {
             String year
     ) {
         this.title = title;
+        if (director != null && director.compareTo("N/A") != 0) {
+            this.director = director;
+        } else {
+            this.director = "N/A";
+        }
         this.director = director;
         this.start_dates = start_dates;
         this.end_dates = end_dates;
@@ -147,6 +152,14 @@ public class Film {
     
     public boolean hasYear() {
         return (year != null && year.compareTo("N/A") != 0);
+    }
+    
+    public boolean hasDirector() {
+        return (director != null && director.compareTo("N/A") != 0);
+    }
+    
+    public boolean hasAddress() {
+        return (address != null && address.compareTo("N/A") != 0);
     }
 
     @Override
