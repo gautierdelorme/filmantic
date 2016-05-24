@@ -136,8 +136,8 @@ public class ParserOwlManager {
     }
     
     private OWLDataProperty createDataProperty(String uri, OWLNamedIndividual ind1, String data, OWL2Datatype type) {
-        OWLDatatype integerDatatype = factory.getOWLDatatype(type.getIRI());
-        OWLLiteral literal = factory.getOWLLiteral(data, integerDatatype);
+        OWLDatatype datatype = factory.getOWLDatatype(type.getIRI());
+        OWLLiteral literal = factory.getOWLLiteral(data, datatype);
         OWLDataProperty dataProperty = factory.getOWLDataProperty(":"+uri,this.inputPrefix);
         OWLDataPropertyAssertionAxiom dataAssersion = factory.getOWLDataPropertyAssertionAxiom(dataProperty, ind1, literal);
         manager.addAxiom(this.outputOnto, dataAssersion);
